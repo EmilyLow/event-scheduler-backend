@@ -53,7 +53,7 @@ async function updateEvent(newEvent, id) {
 
 async function removeEvent(id) {
     try {
-       return await db("accounts").where({id}).del();
+       return await db('events').where({id}).del();
 
     } catch(err) {
         return "Error deleting event: " + err;
