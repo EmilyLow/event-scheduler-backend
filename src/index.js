@@ -5,8 +5,9 @@ const cors = require("cors");
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const db = require("./database.js");
-const eventsRouter = require('./routes/users');
+//Possibly can delete database.js file
+// const db = require("./database.js");
+const eventsRouter = require('./routes/events');
 const usersRouter = require('./routes/users');
 
 const app = express();
