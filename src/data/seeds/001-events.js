@@ -1,10 +1,8 @@
 
+//Keeping to remember what not to do. Keep Z to Date knows its in UTC time. 
 // let date1a = new Date(2021, 4, 7, 17, 30).toISOString().slice(0,19).replace('T', ' ');
 // let date1b = new Date(2021, 4, 7, 19, 0).toISOString().slice(0,19).replace('T', ' ');
-// let date2a = new Date(2021, 4, 7, 19, 0).toISOString().slice(0,19).replace('T', ' ');
-// let date2b = new Date(2021, 4, 7, 21, 0).toISOString().slice(0,19).replace('T', ' ');
-// let date3a = new Date(2021, 4, 7, 19, 0).toISOString().slice(0,19).replace('T', ' ');
-// let date3b = new Date(2021, 4, 7, 21, 0).toISOString().slice(0,19).replace('T', ' ');
+
 
 let date1a = new Date(2021, 4, 7, 17, 30).toISOString().replace('T', ' ');
 let date1b = new Date(2021, 4, 7, 19, 0).toISOString().replace('T', ' ');
@@ -43,7 +41,6 @@ exports.seed = function(knex) {
           start_col: 2,
           span: 6,
           color: "#A8EBF3" //blue
-
 
       },
       {
