@@ -71,7 +71,7 @@ exports.seed = function(knex) {
         },
         {
            
-            event_name: "Talk",
+            event_name: "Talk A",
             speaker: "Dr. Grace Clayton",
             summary: "",
             location: "Conference Room C",
@@ -96,7 +96,7 @@ exports.seed = function(knex) {
             color: "#B0E5B2" //pale green
         },
         {
-            event_name: "Talk",
+            event_name: "Talk B",
             speaker: "Dr. Jaime Wood",
             summary: "",
             location: "Conference Room B",
@@ -108,7 +108,7 @@ exports.seed = function(knex) {
             color: "#ffec6e" //yellow
         }, 
         {
-            event_name: "Talk",
+            event_name: "Talk C",
             speaker: "Dr. Nathaniel Riley",
             summary: "",
             location: "Conference Room D",
@@ -121,7 +121,7 @@ exports.seed = function(knex) {
         },
       
         {
-            event_name: "Talk",
+            event_name: "Talk D",
             speaker: "Dr. Daniel Parsons ",
             summary: "",
             location: "Conference Room C",
@@ -133,7 +133,7 @@ exports.seed = function(knex) {
             color: "#ffec6e" //yellow
         },
         {
-            event_name: "Talk",
+            event_name: "Talk E",
             speaker: "Dr. Nicholas Carson",
             summary: "Etiam ut consequat orci.",
             location: "Conference Room A",
@@ -157,7 +157,7 @@ exports.seed = function(knex) {
             color: "#B0E5B2" //pale green
         },
         {
-            event_name: "Talk",
+            event_name: "Talk F",
             speaker: "Dr. Velma Morales",
             summary: "Nulla finibus ante eget libero congue congue.",
             location: "Conference Room D",
