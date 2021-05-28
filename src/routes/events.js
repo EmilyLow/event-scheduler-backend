@@ -29,7 +29,7 @@ router.get('/id/:id', async function(req, res, next) {
 //?Is this the correct way to do it, when you have things besides ids?
 router.get('/date/:date', async function(req, res, next) {
     const date = req.params.date;
-    console.log("back-end date", date);
+    // console.log("back-end date", date);
     try {
         res.json(await Events.findByDate(date));
     } catch(err) {

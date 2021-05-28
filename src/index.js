@@ -9,6 +9,7 @@ const bodyParser = require("body-parser");
 // const db = require("./database.js");
 const eventsRouter = require('./routes/events');
 const usersRouter = require('./routes/users');
+const settingsRouter = require('./routes/settings');
 
 const app = express();
 
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/events', eventsRouter);
 app.use('/users', usersRouter);
+app.use('/settings', settingsRouter);
 
 const port = process.env.PORT || 3001;
 

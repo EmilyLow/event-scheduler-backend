@@ -31,7 +31,7 @@ async function findByDate(date) {
 
         //Note, also check how these convert to javascript dates
         //!Test adding Z
-        console.log(date);
+        // console.log(date);
         let start = date + " " + "00:00:000Z";
         let end = date + " " + "23:59:59:999Z";
         return await db('events').where('start_time', '>=', start).where('start_time', '<', end).orderBy('start_time', 'desc');
