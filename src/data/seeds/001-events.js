@@ -93,7 +93,7 @@ exports.seed = function(knex) {
             
             start_col: 20,
             span: 6,
-            color: "#B0E5B2" //pale green
+            color: "#ffdfba" //orange peach
         },
         {
             event_name: "Talk B",
@@ -154,7 +154,7 @@ exports.seed = function(knex) {
             
             start_col: 14,
             span: 8,
-            color: "#B0E5B2" //pale green
+            color: "#ffdfba" //orange peach
         },
         {
             event_name: "Talk F",
@@ -202,7 +202,7 @@ exports.seed = function(knex) {
             
             start_col: 32,
             span: 6,
-            color: "#B0E5B2" //pale green
+            color: "#ffdfba" //orange peach
         },
         {
             event_name: "Presentations, Group 1",
@@ -262,7 +262,7 @@ exports.seed = function(knex) {
             
             start_col: 26,
             span: 6,
-            color: "#B0E5B2" //pale green
+            color: "#ffdfba" //orange peach
         },
         {
             event_name: "Talk",
